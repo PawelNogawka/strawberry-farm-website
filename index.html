@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strawberry Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <span>s</span>
+        <span>t</span>
+        <span>r</span>
+        <span>a</span>
+        <span>w</span>
+        <span>b</span>
+        <span>e</span>
+        <span>r</span>
+        <span>r</span>
+        <span>y</span>
+      </a>
+      <nav class="nav nav--mobile">
+        <button class="nav__btn">
+          <span class="nav__line"></span>
+          <span class="nav__line"></span>
+          <span class="nav__line"></span>
+        </button>
+        <div class="nav__mobile-list">
+          <a href="#about" class="nav__link">about us</a>
+          <a href="#features" class="nav__link">features</a>
+          <a href="#products" class="nav__link">products</a>
+          <a href="#reviews" class="nav__link">reviews</a>
+          <a href="#delivery" class="nav__link">delivery</a>
+          <a href="#contact" class="nav__link">contact </a>
+        </div>
+      </nav>
+      <nav class="nav nav--desktop">
+        <div class="nav__desktop-list">
+          <a href="#about" class="nav__link">about us</a>
+          <a href="#features" class="nav__link">features</a>
+          <a href="#products" class="nav__link">products</a>
+          <a href="#reviews" class="nav__link">reviews</a>
+          <a href="#delivery" class="nav__link">delivery</a>
+          <a href="#contact" class="nav__link">contact</a>
+        </div>
+      </nav>
+    </header>
+    <section class="section-padding home">
+      <div class="home__banner">
+        <h1 class="home__heading">strawberrys</h1>
+        <p class="home__subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          et!
+        </p>
+        <a href="#about" class="home__btn btn">Explore More</a>
+      </div>
+      <a href="#about"> <i class="home__arrow fa-solid fa-angle-down"></i></a>
+    </section>
+    <main class="main">
+      <section class="about section-padding" id="about">
+        <div class="wrapper">
+          <h2 class="section-heading">about <span>us</span></h2>
+
+          <div class="about__container">
+            <div class="about__img-box">
+              <img
+                src="./dist/images/about.jpg"
+                alt="Our company"
+                class="about__img"
+              />
+            </div>
+
+            <div class="about__content">
+              <p class="about__info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                iure ipsum! Nesciunt quaerat aperiam dignissimos, incidunt
+                dolores ullam eos? Aperiam, expedita? Doloremque sapiente, illo
+                eos placeat, necessitatibus ex voluptatem a, aspernatur nihil
+                eligendi ducimus nemo praesentium! Eaque vel molestias suscipit
+                ipsam, nemo quia voluptate quam.
+              </p>
+              <div class="about__data-container">
+                <div class="about__data">
+                  <h3 class="about__name">comapny:</h3>
+                  <p class="about__dir">z.o.o Strawberry</p>
+                </div>
+                <div class="about__data">
+                  <h3 class="about__name">years on the market:</h3>
+                  <p class="about__dir">10 years</p>
+                </div>
+                <div class="about__data">
+                  <h3 class="about__name">addres:</h3>
+                  <a href="#" class="about__dir">123 malmo, sweden </a>
+                </div>
+                <div class="about__data">
+                  <h3 class="about__name">phone number:</h3>
+                  <a href="#" class="about__dir">+47 374 274 273</a>
+                </div>
+                <div class="about__data">
+                  <h3 class="about__name">email:</h3>
+                  <a href="#" class="about__dir">Strawberry@contact.com</a>
+                </div>
+              </div>
+              <a href="#contact" class="about__btn btn">contact us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="counter section-padding">
+        <div class="wrapper">
+          <div class="counter__container">
+            <div class="counter__box">
+              <i class="fa-solid fa-seedling"></i>
+              <strong class="counter__amount">100</strong>
+              <h3 class="counter__name">farmland</h3>
+            </div>
+            <div class="counter__box">
+              <i class="fa-solid fa-users"></i>
+              <strong class="counter__amount">1000</strong>
+              <h3 class="counter__name">workers</h3>
+            </div>
+            <div class="counter__box">
+              <i class="fa-solid fa-calendar-days"></i>
+              <strong class="counter__amount">10 years</strong>
+              <h3 class="counter__name">experience</h3>
+            </div>
+            <div class="counter__box">
+              <i class="fa-solid fa-face-smile"></i>
+              <strong class="counter__amount">10000</strong>
+              <h3 class="counter__name">happy clients</h3>
+            </div>
+            <div class="counter__box">
+              <i class="fa-solid fa-school"></i>
+              <strong class="counter__amount">100</strong>
+              <h3 class="counter__name">courses</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features" class="features section-padding gray-bg">
+        <div class="wrapper">
+          <h2 class="section-heading">our <span>features</span></h2>
+          <div class="features__container">
+            <div class="features__feature">
+              <i class="fa-solid fa-leaf"></i>
+              <h3 class="features__name">fresh product</h3>
+              <p class="features__info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet consequatur tenetur deserunt dolor! Doloribus facilis in
+                architecto qui temporibus aliquam, saepe ad ducimus accusantium
+                consectetur ipsa similique, enim et blanditiis?
+              </p>
+            </div>
+            <div class="features__feature">
+              <i class="fa-solid fa-truck"></i>
+              <h3 class="features__name">fast delivery</h3>
+              <p class="features__info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet consequatur tenetur deserunt dolor! Doloribus facilis in
+                architecto qui temporibus aliquam, saepe ad ducimus accusantium
+                consectetur ipsa similique, enim et blanditiis?
+              </p>
+            </div>
+            <div class="features__feature">
+              <i class="fa-solid fa-heart"></i>
+              <h3 class="features__name">delicious product</h3>
+              <p class="features__info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet consequatur tenetur deserunt dolor! Doloribus facilis in
+                architecto qui temporibus aliquam, saepe ad ducimus accusantium
+                consectetur ipsa similique, enim et blanditiis?
+              </p>
+            </div>
+            <div class="features__feature">
+              <i class="fa-sharp fa-solid fa-tree"></i>
+              <h3 class="features__name">natural product</h3>
+              <p class="features__info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet consequatur tenetur deserunt dolor! Doloribus facilis in
+                architecto qui temporibus aliquam, saepe ad ducimus accusantium
+                consectetur ipsa similique, enim et blanditiis?
+              </p>
+            </div>
+            <div class="features__feature">
+              <i class="fa-solid fa-solar-panel"></i>
+              <h3 class="features__name">ecology</h3>
+              <p class="features__info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet consequatur tenetur deserunt dolor! Doloribus facilis in
+                architecto qui temporibus aliquam, saepe ad ducimus accusantium
+                consectetur ipsa similique, enim et blanditiis?
+              </p>
+            </div>
+            <div class="features__feature">
+              <i class="fa-solid fa-chart-simple"></i>
+              <h3 class="features__name">low price</h3>
+              <p class="features__info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet consequatur tenetur deserunt dolor! Doloribus facilis in
+                architecto qui temporibus aliquam, saepe ad ducimus accusantium
+                consectetur ipsa similique, enim et blanditiis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="products" class="products section-padding">
+        <div class="wrapper">
+          <h2 class="section-heading">our <span>products</span></h2>
+          <div class="products__container">
+            <div class="card">
+              <div class="card__top">
+                <h3 class="card__name">fresh strawberries</h3>
+                <p class="card__info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque molestias architecto rerum, commodi voluptatibus
+                  provident debitis officia cum incidunt sed aliquam repellendus
+                  hic voluptatum.
+                </p>
+                <p class="card__price">1$/ <span>kg</span></p>
+              </div>
+              <div class="card__bottom">
+                <h3 class="card__name card__name--bottom">
+                  fresh strawberries
+                </h3>
+                <small>collected on the day of sale</small>
+                <div class="card__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="card__amount-box">
+                  <h4 class="card__amount-info">amount(kg):</h4>
+                  <button class="card__amount-btn active">1</button>
+                  <button class="card__amount-btn">2</button>
+                  <button class="card__amount-btn">3</button>
+                  <button class="card__amount-btn">4</button>
+                  <button class="card__amount-btn">5</button>
+                  <button class="card__amount-btn">6</button>
+                  <button class="card__amount-btn">7</button>
+                  <button class="card__amount-btn">8</button>
+                </div>
+                <div class="card__total">
+                  <h4 class="card__sum">sum:</h4>
+                  <p class="card__total-amount">0$</p>
+                </div>
+                <button class="card__btn">choice</button>
+                <div class="card__icons">
+                  <i
+                    data-shortcut="ecological-hoow"
+                    class="card__icon card__icon--eco fa-solid fa-leaf"
+                  ></i>
+                  <i
+                    data-shortcut="fast-delivery"
+                    class="card__icon card__icon--delivery fa-solid fa-truck"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <h3 class="card__name">marmelade</h3>
+                <p class="card__info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque molestias architecto rerum, commodi voluptatibus
+                  provident debitis officia cum incidunt sed aliquam repellendus
+                  hic voluptatum.
+                </p>
+                <p class="card__price">2$/ <span>kg</span></p>
+              </div>
+              <div class="card__bottom">
+                <h3 class="card__name card__name--bottom">
+                  fresh strawberries
+                </h3>
+                <small>prepared on the day of sale</small>
+                <div class="card__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="card__amount-box">
+                  <h4 class="card__amount-info">amount(kg):</h4>
+                  <button class="card__amount-btn active">1</button>
+                  <button class="card__amount-btn">2</button>
+                  <button class="card__amount-btn">3</button>
+                  <button class="card__amount-btn">4</button>
+                  <button class="card__amount-btn">5</button>
+                  <button class="card__amount-btn">6</button>
+                  <button class="card__amount-btn">7</button>
+                  <button class="card__amount-btn">8</button>
+                </div>
+                <div class="card__total">
+                  <h4 class="card__sum">sum:</h4>
+                  <p class="card__total-amount">0$</p>
+                </div>
+                <button class="card__btn">choice</button>
+                <div class="card__icons">
+                  <i
+                    data-shortcut="ecological-hoow"
+                    class="card__icon card__icon--eco fa-solid fa-leaf"
+                  ></i>
+                  <i
+                    data-shortcut="fast-delivery"
+                    class="card__icon card__icon--delivery fa-solid fa-truck"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <h3 class="card__name">jam</h3>
+                <p class="card__info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque molestias architecto rerum, commodi voluptatibus
+                  provident debitis officia cum incidunt sed aliquam repellendus
+                  hic voluptatum.
+                </p>
+                <p class="card__price">3$/ <span>kg</span></p>
+              </div>
+              <div class="card__bottom">
+                <h3 class="card__name card__name--bottom">
+                  fresh strawberries
+                </h3>
+                <small>prepared on the day of sale</small>
+                <div class="card__rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="card__amount-box">
+                  <h4 class="card__amount-info">amount(kg):</h4>
+                  <button class="card__amount-btn active">1</button>
+                  <button class="card__amount-btn">2</button>
+                  <button class="card__amount-btn">3</button>
+                  <button class="card__amount-btn">4</button>
+                  <button class="card__amount-btn">5</button>
+                  <button class="card__amount-btn">6</button>
+                  <button class="card__amount-btn">7</button>
+                  <button class="card__amount-btn">8</button>
+                </div>
+                <div class="card__total">
+                  <h4 class="card__sum">sum:</h4>
+                  <p class="card__total-amount">0$</p>
+                </div>
+                <button class="card__btn">choice</button>
+                <div class="card__icons">
+                  <i
+                    data-shortcut="ecological-hoow"
+                    class="card__icon card__icon--eco fa-solid fa-leaf"
+                  ></i>
+                  <i
+                    data-shortcut="fast-delivery"
+                    class="card__icon card__icon--delivery fa-solid fa-truck"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews" class="reviews section-padding">
+        <div class="wrapper">
+          <h2 class="section-heading">what the customers <span>say?</span></h2>
+          <div class="slider">
+            <div class="slider__row">
+              <div class="slider__col">
+                <img
+                  src="./dist/images/customer-1.jpg"
+                  alt="Happy customer - Oscar Brown"
+                  class="slider__img"
+                />
+                <div class="slider__content">
+                  <h3 class="slider__name">lisa black</h3>
+                  <p class="slider__quote">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ab, deleniti. Explicabo et praesentium eum magni? Reiciendis
+                    ipsa iure voluptatibus sapiente maiores nostrum corporis
+                    velit nobis dolore, labore officiis autem minima!
+                  </p>
+                  <div class="slider__rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <i class="slider__icon-quote fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+              <div class="slider__col">
+                <img
+                  src="./dist/images/customer-2.jpg"
+                  alt="Happy customer - Oscar Brown"
+                  class="slider__img"
+                />
+                <div class="slider__content">
+                  <h3 class="slider__name">max pink</h3>
+                  <p class="slider__quote">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ab, deleniti. Explicabo et praesentium eum magni? Reiciendis
+                    ipsa iure voluptatibus sapiente maiores nostrum corporis
+                    velit nobis dolore, labore officiis autem minima! Lorem
+                    ipsum dolor sit amet.
+                  </p>
+                  <div class="slider__rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <i class="slider__icon-quote fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+              <div class="slider__col">
+                <img
+                  src="./dist/images/customer-3.jpg"
+                  alt="Happy customer - Oscar Brown"
+                  class="slider__img"
+                />
+                <div class="slider__content">
+                  <h3 class="slider__name">oscar brown</h3>
+                  <p class="slider__quote">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ab, deleniti. Explicabo et praesentium eum magni? Reiciendis
+                    ipsa iure voluptatibus sapiente maiores nostrum corporis
+                    velit nobis dolore, labore officiis autem minima! Lorem
+                    ipsum dolor sit, amet consectetur adipisicing elit. Soluta,
+                    nemo.
+                  </p>
+                  <div class="slider__rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <i class="slider__icon-quote fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+              <div class="slider__col">
+                <img
+                  src="./dist/images/customer-4.jpg"
+                  alt="Happy customer - Oscar Brown"
+                  class="slider__img"
+                />
+                <div class="slider__content">
+                  <h3 class="slider__name">samantha shepard</h3>
+                  <p class="slider__quote">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ab, deleniti. Explicabo et praesentium eum magni? Reiciendis
+                    ipsa iure voluptatibus sapiente maiores nostrum corporis
+                    velit nobis dolore, labore officiis autem minima! Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis aliquid perspiciatis repellat facere fuga
+                    reiciendis.
+                  </p>
+                  <div class="slider__rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <i class="slider__icon-quote fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slider__btns">
+              <button class="slider__btn active"></button>
+              <button class="slider__btn"></button>
+              <button class="slider__btn"></button>
+              <button class="slider__btn"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero section-padding">
+        <div class="hero__banner">
+          <h2 class="hero__heading">strawberry</h2>
+          <p class="hero__info">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+            earum tempore, corrupti sapiente, culpa tenetur suscipit fuga cumque
+            impedit nam tempora perspiciatis, optio a? Consectetur quae eaque
+            modi mollitia possimus maxime necessitatibus. Vero iusto, sapiente
+            beatae ut dolorum dolorem quis.
+          </p>
+        </div>
+      </section>
+      <section id="delivery" class="delivery section-padding">
+        <div class="wrapper">
+          <div class="section-heading">
+            search for your <span>suppiler</span>
+          </div>
+          <div class="delivery__container">
+            <div class="search">
+              <header class="search__top">
+                <h3 class="search__heading">suppiler filter</h3>
+                <small class="search__tip"
+                  >search by name and/or location</small
+                >
+                <input type="text" class="search__input" placeholder="search" />
+              </header>
+              <div class="search__bottom"></div>
+            </div>
+            <div class="checkbox">
+              <h3 class="checkbox__heading">
+                what type of delivery do you <span>choose?</span>
+              </h3>
+              <div class="checkbox__container">
+                <div class="checkbox__input-box">
+                  <input type="checkbox" class="checkbox__input" id="good" />
+                  <label for="good">
+                    <div class="checkbox__ball"></div>
+                  </label>
+                  <span>good</span>
+                </div>
+                <div class="checkbox__input-box">
+                  <input type="checkbox" class="checkbox__input" id="fast" />
+                  <label for="fast">
+                    <div class="checkbox__ball"></div>
+                  </label>
+                  <span>fast</span>
+                </div>
+                <div class="checkbox__input-box">
+                  <input type="checkbox" class="checkbox__input" id="cheap" />
+                  <label for="cheap">
+                    <div class="checkbox__ball"></div>
+                  </label>
+                  <span>cheap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section id="contact" class="contact section-padding gray-bg">
+      <div class="wrapper">
+        <h2 class="section-heading">contact <span>us</span></h2>
+        <form class="contact__form">
+          <div class="contact__container">
+            <input
+              type="text"
+              class="contact__input"
+              placeholder="Name.."
+              required
+            />
+            <input
+              type="email"
+              class="contact__input lowercase"
+              placeholder="Email.."
+            />
+            <input
+              type="text"
+              class="contact__input"
+              placeholder="Phone.."
+              required
+            />
+          </div>
+          <textarea
+            class="contact__txtarea"
+            placeholder="Message.."
+            required
+          ></textarea>
+          <button class="contact__btn" type="submit">send message</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__nav">
+        <a href="#about" class="footer__link">about us</a>
+        <a href="#features" class="footer__link">features</a>
+        <a href="#products" class="footer__link">products</a>
+        <a href="#reviews" class="footer__link">reviews</a>
+        <a href="#delivery" class="footer__link">delivery</a>
+        <a href="#contact" class="footer__link">contact </a>
+      </div>
+    </footer>
+    <div class="notifications"></div>
+
+    <script src="./dist/js/main.min.js"></script>
+  </body>
+</html>
