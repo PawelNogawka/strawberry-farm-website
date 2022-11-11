@@ -1,5 +1,7 @@
 # strawberry-farm-website
 
+Github pages link: https://pawelnogawka.github.io/strawberry-farm-website/
+
 While creating this website, I learned how to create:
 - Animated logo
 - Interesting animations of navigation on mobile devices using the opacity, tranform and visibility properties
