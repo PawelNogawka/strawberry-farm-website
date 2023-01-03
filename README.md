@@ -1,6 +1,6 @@
 # strawberry-farm-website
 
-Github pages link: https://pawelnogawka.github.io/strawberry-farm-website/
+Live site: https://pawelnogawka.github.io/strawberry-farm-website/
 
 While creating this website, I learned how to create:
 - Animated logo
